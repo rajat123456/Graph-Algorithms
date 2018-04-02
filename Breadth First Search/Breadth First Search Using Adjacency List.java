@@ -87,12 +87,13 @@ public class Main
                 // Enqueuing it to the Queue
                 
                 queue.add(ret);
-            }
+	  
+	  }
             
-        }
+       }
         
-        }
     }
+}
     
 	public static void main(String[] args) {
 		
@@ -102,11 +103,11 @@ public class Main
 	// between 2 specified vertices
 
 	m.edge(0,1);	
-    m.edge(0, 2);
-    m.edge(1, 2);
-    m.edge(2, 0);
-    m.edge(2, 3);
-    m.edge(3, 3);
+        m.edge(0, 2);
+        m.edge(1, 2);
+        m.edge(2, 0);
+        m.edge(2, 3);
+        m.edge(3, 3);
  
     // Starting the traversal from Vertex "2"
     
